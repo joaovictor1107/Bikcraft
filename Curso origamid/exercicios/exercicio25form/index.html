@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="./">
+        <label for="nome">Nome</label>   
+<input type="text" id="nome" name="nomes" required>
+
+    <label for="senha">Senha</label>   
+<input type="password" id="nome" name="nomes" required>
+<button>enviar</button>
+
+<label for="email">E-mail</label>   
+<input type="email" id="email" name="email" required>
+
+<label for="idade">Idade</label>   
+<input type="number" id="idade" name="idade" required>
+
+<label for="CPF">CPF</label>   
+<input type="number" id="CPF" name="CPF" required placeholder="000.000.000-00">
+
+<label for="saida">Saida do hotel</label>   
+<input type="date" id="saida" name="saida" required>
+<div class="checkbox">
+    <input type="checkbox" id="marketing" name="marketing" value="marketing" />
+    <label for="marketing">Desejo receber avisos de promoções.</label>
+  </div>
+
+
+
+  <div class="checkbox">
+    <input type="checkbox" id="termos" name="termos" value="termos" />
+    <label for="termos">Li os termos e condições.</label>
+  </div>
+  
+  <p>Entrega:</p>
+  <div class="radio">
+    <input type="radio" id="retirada" name="retirada" />
+    <label for="retirada">Retirar no local.</label>
+  </div>
+  <div class="radio">
+    <input type="radio" id="entrega" name="retirada" />
+    <label for="entrega">Entrega em casa.</label>
+  </div>
+
+  <label for="parcelas">Parcelas</label>
+<select name="parcelas" id="parcelas">
+  <option value="1x">1x de R$ 1200</option>
+  <option value="3x">3x de R$ 400</option>
+  <option value="6x">6x de R$ 200</option>
+  <option value="12x">12x de R$ 100</option>
+</select>
+
+  
+    </form>
+</body>
+</html>

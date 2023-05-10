@@ -1,0 +1,280 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    display: grid;
+    margin: 0;
+    background: #f7f7f7;
+    font-family: Arial;
+    justify-items: center;
+    margin-top: 60px;
+}
+.bikcraftsvg{
+    margin-top: 30px;
+    font-size: 2rem;
+    
+    
+}
+header{
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.menu{
+   margin-top: 40px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-template-columns: repeat(2,AUTO);
+    justify-content: center;
+    
+    
+}
+.menu a{
+    background: #fff;
+    display: block;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    
+}
+
+
+
+
+
+/*MAIN*/
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    
+    
+}
+.bikcraftimg{
+    
+    max-width: 100%;
+    grid-column: 2;
+    
+}
+.conteudo{
+    position: relative;
+    text-align: right;
+    background-color: white;
+    padding: 30px;
+    
+   
+}
+.conteudo h1{
+    font-size: 2rem;
+}
+.conteudo::before {
+    
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: rgb(238, 35, 17);
+    position: absolute;
+    top: 30px;
+    right: -30px;
+  }
+.biketitle{
+    margin-top: 80px;
+    
+}
+.descbike{
+    background-color: white;
+    font-size: 1.3rem;
+
+    grid-row: 3;
+    padding: 10px;
+    
+}
+.vermais{
+    
+    text-decoration: none;
+    text-align: right;
+    
+  
+}
+.vermais{
+    
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 4px;
+    
+}
+
+    
+
+
+
+/*vantagens*/
+
+
+.bonus ul{
+    margin: 0;
+}
+.vantagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.vantagensbikcraft{
+    max-width: 100%;
+}
+.vantagensbikcraft{
+    text-align: end;
+    font-size: 3.5rem;
+    color: #c6c6c6;
+    margin-right: 50px;
+    font-weight: bold;    
+    
+}
+.vantagensonda{
+    margin: 0;
+    grid-column: 1;
+    padding: 20px;
+    width: 100%;
+    background-repeat: repeat;
+    align-self: center;
+
+    
+
+}
+.vantagensondaimg{
+    background-image: url(./img/onda.svg);
+    background-size:500px ;
+    max-height: 250px;
+    
+    
+}
+
+ol{
+    list-style-type: none;
+}
+
+/*rodape*/
+footer{
+    width: 100%;
+    background: white;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.rodape{
+   
+    font-size: 2vh;
+    
+    text-align: center;
+    
+   
+}
+main{
+    margin-bottom: 2vh;
+}
+
+
+
+
+/*effects*/
+.menu a:hover{
+    border: 2px solid red;
+   
+
+}
+.vermais:hover{
+    box-shadow: 5px 7px #db7d7d;
+    background-color: rgba(245, 16, 16, 0.795)
+}
+
+
+.vantagens2 {
+    background: #fff;
+    padding: 40px;
+  }
+.vantagens-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    border-left: 4px solid transparent;
+  } 
+  .vantagens-item:nth-child(odd) {
+    background: #f7f7f7;
+  }
+  
+  .vantagens-item:hover {
+    border-left: 4px solid #e21;
+
+  }
+  
+  .vantagens-item p {
+    grid-column: 2;
+  }
+
+
+  /*responsivo*/
+
+
+  .bikcraftimgdiv img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .vantagensbikcraft{
+    /*word-break: break-all;*/
+  }
+
+  @media (max-width:1000px){
+    .conteudo-vantagem{
+        grid-template-columns: 1fr;
+    }
+    .vantagensbikcraft{
+        text-align: center;
+    }
+  }
+  @media (max-width:600px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+    body{
+        gap: 30px;
+        margin-top: 20px;
+    }
+    header{
+        gap: 30px;
+    }
+    .conteudo{
+        text-align: left;
+        
+    }
+   
+    .conteudo::before {
+        display: none;
+    }
+  }
+@media(min-width:600px){
+
+}

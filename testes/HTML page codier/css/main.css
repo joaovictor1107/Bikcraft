@@ -1,0 +1,92 @@
+main{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    padding: 20px;
+    width: 1200px;
+    gap: 50px;
+}
+.content  {
+color: white;
+padding: 5vw;
+justify-content: center;
+
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: red;
+    border-radius: 6px;
+}
+.content p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.qdd{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    height: 50vh;
+    width: 40vw;
+    
+}
+.one{
+    background: grey;
+    border-radius: 6px;
+    height: 40px;
+    margin-bottom: -60px;
+}
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+    height: 100px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+   
+
+}
+.twotwo{
+    background: tomato;
+    border-radius: 6px;
+}
+.twotwotwo{
+    background: tomato;
+    border-radius: 6px;
+}
+.tree{
+    margin-top: -40px;
+background: orange;
+padding: 40px;
+border-radius: 6px;
+}
+
+
+
+footer{
+    padding: 1.35rem 0rem;
+    background: white;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width:700px){
+    main{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .qdd{
+        width: 50vw;
+       margin-left: 70px;
+    }
+}

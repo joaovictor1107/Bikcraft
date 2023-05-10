@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+}
+div{
+    height: 40px;
+    background-color: lightblue;
+    width: calc(100vw - 50px);
+    height: 100vh;
+}
+p{
+    margin: 0px;
+}

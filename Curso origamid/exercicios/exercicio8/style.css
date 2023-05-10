@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+} 
+h1{
+    text-align: center;
+    border-radius: 4px;
+}
+#titulocarro{
+    color: #b2b2b2;
+    margin: 15px;
+}
+
+#carro{
+   
+    background-color: #111;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 30px;
+     padding-inline: center;
+   
+}
+#precocarro{
+   
+    color: #febe01;
+}
+#carrodescricao{
+    margin: 15px;
+    color: #b2b2b2;
+}
+.yellow{
+    color: #febe01;
+}
+
+#bicicleta{
+    background-color: #111;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+#titulobicicleta{
+    color: #b2b2b2;
+    margin: 15px;
+    
+}
+#precobicicleta{
+    color: #febe01;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #febe01;
+    color: #111;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px;
+    margin-left: 15px;
+    width: 130px;
+    margin-top: 20px;
+    border: 5px solid, rgba(0, 0, 0, alpha)  
+}
+
+#bicicletadescricao{
+    margin: 15px;
+    color: #b2b2b2;
+}

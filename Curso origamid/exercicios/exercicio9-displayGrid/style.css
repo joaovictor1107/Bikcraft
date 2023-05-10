@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+margin-top: 0px;
+}
+.item{
+    background: #f7f7f7;
+    border: 3px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px;
+    gap:10px ;
+    
+    
+}
+.comprar{
+    text-decoration: none;
+    background: #a8f;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-column: 2/4;
+    gap: 10px;
+    justify-content: center;
+    
+}

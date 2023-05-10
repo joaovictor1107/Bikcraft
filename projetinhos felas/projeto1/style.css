@@ -1,0 +1,312 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(90deg,rgb(48, 48, 121) 10%,  rgb(190, 190, 192) 90%);
+
+    
+}
+.mousetitle{
+    color: rgb(48, 48, 121);
+    margin-left: 30px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+.mouse{
+    
+    background: linear-gradient(70deg,rgb(48, 48, 121) 1%, rgb(190, 190, 192) 99%) ;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    transition: translate(-50%);
+}
+.title{
+    text-align: center;
+    
+}
+
+
+.conteudo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mouseimg{
+    margin-left: 30px;
+    width: 300px;
+    border: 3px solid rgba(48, 48, 121, 1);
+    border-radius: 30px;
+    background-color: rgba(48, 48, 121, 0.5);
+    
+    
+}.mousedescrition{
+    margin: 10px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(190, 190, 192);
+    border-radius: 30px;
+    border: 3px solid rgba(48, 48, 121, 0.5);
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 30px;
+}
+    
+
+.mouseprice{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(48, 48, 121);
+    background-color:  rgb(190, 190, 192, 0.5);
+    border: 3px solid rgba(48, 48, 121, 0.5);
+    border-radius: 20px;
+    width: 250px;
+    font-weight: 700;
+    
+    background: linear-gradient(10deg,rgb(129, 129, 219) 10%,  rgb(190, 190, 192) 99%);
+}
+.precomouse{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+   
+    
+    
+}
+.mouse{
+   
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+   
+}
+.mousebutton2{
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    border-radius: 50px;
+    margin-top: px;
+    background: linear-gradient(-10deg,rgb(48, 48, 121) 10%,  rgb(190, 190, 192) 90%);
+}
+.mousebutton{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:  rgba(48, 48, 121, 0.5);
+    font-size: 20px;
+    color: black;
+    padding: 20px 20px;
+    margin-left: 30px;
+    
+    border-radius: 20px;
+    border: 5px solid rgb(190, 190, 192, 0.5);
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-weight: 750;
+    font-size: 20px;
+    background: linear-gradient(10deg,rgb(202, 202, 241) 10%,  rgb(58, 58, 214) 90%);
+    
+}
+
+/*TECLADOOOOOOOOOOOOOOOO*/
+.tecladotitle{
+    color: rgb(48,48,121);
+    margin-left: 30px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+.teclado{
+    
+    background: linear-gradient(70deg,rgb(48, 48, 121) 1%, rgb(190, 190, 192) 99%) ;
+    width: 100%;
+    position: absolute;
+    top: 88%;
+    left: 25%;
+    transition: translate(-50%);
+}
+.title{
+    text-align: center;
+      
+}
+.conteudo2{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.tecladoimg{
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid rgba(48, 48, 121, 1);
+    border-radius: 30px;
+    background-color:  rgba(48, 48, 121, 0.5);
+}
+.tecladodescrition{
+    margin: 10px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(190, 190, 192);
+    border-radius: 30px;
+    border: 3px solid rgba(48, 48, 121, 0.5);
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 30px;
+}
+.tecladoprice{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(48, 48, 121);
+    background-color:  rgb(190, 190, 192, 0.5);
+    border: 3px solid rgba(48, 48, 121, 0.5);
+    border-radius: 20px;
+    width: 250px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    background: linear-gradient(10deg,rgb(129, 129, 219) 10%,  rgb(190, 190, 192) 99%);
+}
+.precoteclado{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.teclado{
+   
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+   
+}
+.tecladobutton2{
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    border-radius: 50px;
+    margin-top: px;
+    background: linear-gradient(-10deg,rgb(48, 48, 121) 10%,  rgb(190, 190, 192) 90%);
+}
+
+.tecladobutton{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:  rgba(48, 48, 121, 0.5);
+    font-size: 20px;
+    color: black;
+    padding: 20px 20px;
+    margin-left: 30px;
+    
+    border-radius: 20px;
+    border: 5px solid rgb(190, 190, 192, 0.5);
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-weight: 750;
+    font-size: 20px;
+    background: linear-gradient(10deg,rgb(202, 202, 241) 10%,  rgb(58, 58, 214) 90%);
+    
+}
+
+/*HEADSET*/
+.headsettitle{
+    color: rgb(48,48,121);
+    margin-left: 30px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+.headset{
+    
+    background: linear-gradient(70deg,rgb(48, 48, 121) 1%, rgb(190, 190, 192) 99%) ;
+    width: 100%;
+    position: absolute;
+    top: 163%;
+    left: 25%;
+    transition: translate(-50%);
+}
+.title{
+    text-align: center;
+      
+}
+.conteudo3{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.headsetimg{
+    margin-left: 30px;
+    width: 300px;
+    border: 3px solid rgba(48, 48, 121, 1);
+    border-radius: 30px;
+    background-color:  rgba(48, 48, 121, 0.5);
+}
+.headsetdescrition{
+    margin:10px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(190, 190, 192);
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.headsetprice{
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(48, 48, 121);
+    background-color: rgb(190, 190, 192, 0.5);
+    border: 3px solid rgba(48, 48, 121, 0.5);
+    border-radius: 20px;
+    width: 250px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    background: linear-gradient(10deg,rgb(129, 129, 219) 10%,  rgb(190, 190, 192) 99%);
+}
+.precoheadset{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.headset{
+   
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+   
+}
+.headsetbutton2{
+    background-color: rgb(161, 158, 163);
+    border-radius: 4px;
+    width: 1000px;
+    border-radius: 50px;
+    margin-top: 0px;
+    background: linear-gradient(-10deg,rgb(48, 48, 121) 10%,  rgb(190, 190, 192) 90%);
+}
+.headsetbutton{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:  rgba(48, 48, 121, 0.5);
+    font-size: 20px;
+    color: black;
+    padding: 20px 20px;
+    margin-left: 30px;
+    
+    border-radius: 20px;
+    border: 5px solid rgb(190, 190, 192, 0.5);
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-weight: 750;
+    font-size: 20px;
+    background: linear-gradient(10deg,rgb(202, 202, 241) 10%,  rgb(58, 58, 214) 90%);
+}

@@ -1,0 +1,18 @@
+.bicicleta {
+    height: 600px;
+    background-color: black;
+    background-image: url('nimbus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /* Escreve por cima do definido anteriormente */
+    /* background: url("./img/bicicleta.jpg"); */
+    display: flex;
+  }
+  
+  .bicicleta h1 {
+    margin: auto;
+    background: white;
+    padding: 1rem 2rem;
+  }
+  

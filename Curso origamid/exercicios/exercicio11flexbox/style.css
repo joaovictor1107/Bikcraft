@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    flex: wrap;/*Caso não caiba todos os elementos em uma mesma linha, quebre para a próxima.*/
+    background-color: 100vh;
+
+    
+}
+h2{
+    background: #e7e7e7;
+    border: 1px solid #b7b7b7;
+    padding: 20px;
+    flex-basis: 500px;
+}
